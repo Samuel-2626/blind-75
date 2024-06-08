@@ -27,12 +27,6 @@ def contains_duplicate(nums):
     return False
 
 
-
-
-
-
-
-
 nums = [1, 2, 3, 3] # True
 nums = [1, 2, 3, 4] # False
 
