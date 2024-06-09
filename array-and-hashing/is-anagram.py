@@ -8,11 +8,14 @@ of the character can be different.
 
 """
 
-# Time complexity = O(n)
-# Space complexity = O(n)
+# Time complexity = O(s + t)
+# Space complexity = O(s + t)
 
 
 def is_anagram(s, t):
+
+    if (len(s) != len(t)):
+        return False
 
 
     string_1 = dict()
